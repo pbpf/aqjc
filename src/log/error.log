@@ -1,0 +1,72 @@
+[2016-08-30T16:44:23]:message=+: contract violation
+  expected: number?
+  given: "a"
+  argument position: 2nd
+  other arguments...:
+   1;exn=#(struct:exn:fail:contract +: contract violation
+  expected: number?
+  given: "a"
+  argument position: 2nd
+  other arguments...:
+   1 #<continuation-mark-set>)
+[2016-08-30T18:02:55]:message=query-value: query returned wrong number of rows
+  statement: "select info from adjcfiles where id=$1"
+  expected: 1
+  got: 4;exn=#(struct:exn:fail query-value: query returned wrong number of rows
+  statement: "select info from adjcfiles where id=$1"
+  expected: 1
+  got: 4 #<continuation-mark-set>)
+[2016-08-30T19:07:21]:message=send: no such method
+  method name: get-selection-files-id
+  class name: list-box-sort-able%;exn=#(struct:exn:fail:object send: no such method
+  method name: get-selection-files-id
+  class name: list-box-sort-able% #<continuation-mark-set> ...)
+[2016-08-30T19:10:51]:message=send: no such method
+  method name: delect-selection-lines
+  class name: list-box-sort-able%;exn=#(struct:exn:fail:object send: no such method
+  method name: delect-selection-lines
+  class name: list-box-sort-able% #<continuation-mark-set> ...)
+[2016-08-31T16:11:40]:message=query-rows: 关系 "adjcfiles" 不存在
+  SQLSTATE: 42P01;exn=#(struct:exn:fail:sql query-rows: 关系 "adjcfiles" 不存在
+  SQLSTATE: 42P01 #<continuation-mark-set> ...)
+[2016-08-31T20:22:25]:message=get-scroll-page method in canvas%: arity mismatch;
+ the expected number of arguments does not match the given number
+  expected: 1
+  given: 0;exn=#(struct:exn:fail:contract:arity get-scroll-page method in canvas%: arity mismatch;
+ the expected number of arguments does not match the given number
+  expected: 1
+  given: 0 #<continuation-mark-set>)
+[2016-09-26T10:58:33]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:33]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:33]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:33]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T10:58:34]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T11:21:30]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T11:21:30]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-26T11:21:30]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T10:03:47]:message=query-value: 对关系 aqjcfiles 权限不够
+  SQLSTATE: 42501;exn=#(struct:exn:fail:sql query-value: 对关系 aqjcfiles 权限不够
+  SQLSTATE: 42501 #<continuation-mark-set> ...)
+[2016-09-27T11:00:18]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T11:00:18]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T11:00:18]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T11:00:18]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:08]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T14:57:10]:message=queue-callback: eventspace is shutdown: #<eventspace>;exn=#(struct:exn:fail queue-callback: eventspace is shutdown: #<eventspace> #<continuation-mark-set>)
+[2016-09-27T19:12:54]:message=query-value: 对于可变字符类型来说，值太长了(60)
+  SQLSTATE: 22001;exn=#(struct:exn:fail:sql query-value: 对于可变字符类型来说，值太长了(60)
+  SQLSTATE: 22001 #<continuation-mark-set> ...)
